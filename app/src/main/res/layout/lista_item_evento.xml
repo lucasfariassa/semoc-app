@@ -75,7 +75,7 @@
     <TextView
         android:id="@+id/lista_elemento_local"
         android:layout_width="107dp"
-        android:layout_height="47dp"
+        android:layout_height="50dp"
         android:layout_marginEnd="8dp"
         android:text="Local"
         android:textAlignment="center"
