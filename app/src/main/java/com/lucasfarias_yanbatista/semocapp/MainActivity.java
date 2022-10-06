@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity {
         getSupportActionBar().hide();
         setContentView(R.layout.activity_main);
 
-        CadastroEventos cadastroEventos = new CadastroEventos();
+        CadastroEventos cadastroEventos = new CadastroEventos(); // Objeto de cadastro
         cadastroEventos.cadastrarEventos(); // Cadastra eventos pré-declarados no método
 
         ListView listView = findViewById(R.id.main_lista_evento);
