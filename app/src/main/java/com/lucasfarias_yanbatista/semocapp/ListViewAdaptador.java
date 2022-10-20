@@ -9,12 +9,12 @@ import android.widget.TextView;
 
 import java.util.List;
 
-public class Adaptador extends BaseAdapter {
+public class ListViewAdaptador extends BaseAdapter {
 
     private List<Evento> lista;
     private Context context;
 
-    public Adaptador(List<Evento> lista, Context context) {
+    public ListViewAdaptador(List<Evento> lista, Context context) {
         this.lista = lista;
         this.context = context;
     }

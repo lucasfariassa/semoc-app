@@ -1,14 +1,16 @@
 package com.lucasfarias_yanbatista.semocapp;
 
 public class Evento {
-    private String data, hora, local, titulo, descricao;
+    private String data, hora, local, titulo, descricao, tag;
 
-    public Evento(String data, String hora, String local, String titulo, String descricao) {
+    public Evento(String data, String hora, String local, String titulo, String descricao,
+                  String tag) {
         this.data = data;
         this.hora = hora;
         this.local = local;
         this.titulo = titulo;
         this.descricao = descricao;
+        this.tag = tag;
     }
 
     public String getData() {
@@ -49,5 +51,13 @@ public class Evento {
 
     public void setDescricao(String descricao) {
         this.descricao = descricao;
+    }
+
+    public String getTag() {
+        return tag;
+    }
+
+    public void setTag(String tag) {
+        this.tag = tag;
     }
 }
